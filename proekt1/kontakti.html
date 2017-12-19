@@ -1,0 +1,129 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Магията на сноуборда</title>	
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+	<body>
+	<div id="wrap">
+		<header> 
+		<a href="index1.html"><img src="logo.jpg" alt="logo"/></a>
+		<h1>Сноуборд в облаците</h1>
+		<ul class="nav">
+		<li>
+			<a href="index.html">Начало</a>
+		</li>
+		<li>
+			<a href="istoriq.html">История</a>
+		</li>
+		<li>
+			<a href="stilove.html">Стилове</a>
+			<ul>
+				<li>
+					<a href="stil1.html">Фрийрайд</a>	
+				</li>
+				<li>
+					<a href="stil2.html">Фрийстайл</a>
+				</li>
+				<li>
+					<a href="stil3.html">Бордъркрос</a>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a href="trikove.html">Трикове</a>
+		</li>
+		<li>
+			<a href="kontakti.html">Контакти</a>
+		</li>
+	</ul>
+		</header>
+		<main> 
+		<h2>Регистрирай се за уроци</h2>
+		<article >
+			<form method="post">
+		<p>
+			Име: <input type="text" name="first_name" placeholder="Име...">
+		</p>
+		<p>
+			Фамилия: <input type="text" name="last_name" placeholder="Фамилия...">
+		</p>
+		<p>
+			<label for="Address"> Адрес: 
+				<textarea name="address" placeholder="Address" id="Address">
+				Адрес...
+				</textarea>
+			</label>
+		</p>
+		<p>
+			Град: <input type="text" name="city" placeholder="Град...">
+		</p>
+		<p>
+			Пощенски код: <input type="text" name="Zip/postal code" placeholder="Code..." pattern="[A-Za-z]{3}" title="Three letter country code">
+		</p>
+		<p>
+			Държава:
+			<select name="Country">
+				<option value="1">България</option>
+				<option value="2">Китай</option>
+				<option value="3">Румъния</option>
+				<option value="4">САЩ</option>
+				<option value="5">Англия</option>
+				<option value="" selected="">Избери</option>
+			</select>
+		</p>
+		<p>
+			Email: <input type="email" name="mail">
+		</p>
+		<p>
+			Рожден ден: <input type="date" name="birthday">
+		</p>
+		<p>
+			Пол:
+			<select name="Gender">
+				<option value="1">Жена</option>
+				<option value="2">Мъж</option>
+				<option value="3">Друго</option>
+				<option value="" selected="">Избери</option>
+			</select>
+		</p>
+		<p>
+			Начална дата:
+			<label>
+				1 Септември
+				<input type="radio" name="date" id="1Sept" value="1Sept">
+			</label>
+			<label>
+				1 Декември
+				<input type="radio" name="date" id="1Dec" value="1Dec">
+			</label>
+		</p>
+		<p>
+			<label for="Comments"> Коментари/въпроси: 
+				<textarea name="Comments" placeholder="Comments" id="Comments">
+				Коментари/въпроси...
+				</textarea>
+			</label>
+		<p>
+			<label for="agreement">
+			Прочетох и съм съгласен/съгласна с условията за ползване
+			<input type="checkbox" id="agreement" name="agree" value="agree">
+			</label>
+		</p>
+		<p>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</p>
+	</form>
+		</article>
+		<div class="nagore">
+			<a  href="kontakti.html"><img class="nagore" src="nagore.png" alt="nagore" width="3%" height="3%"  /></a></div>
+		</main>
+		
+		<footer>
+		<h2> Деница Узунова </h2>
+		</footer>
+	</div>
+	</body>
+</html>

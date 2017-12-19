@@ -1,0 +1,160 @@
+body, ul, li, a, img, header, h1, h2, main, article, footer, div, nav {
+	margin: 0%;
+	padding: 0%;
+}
+body{
+	font-family: Georgia, Helvetica, sans-serif;
+	font-size: 75%;
+	line-height: 1.5;
+}
+#wrap{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:  #19334d;
+	padding: 30px;
+}
+header {
+	width: 960px;
+	height: 120px;
+	background-color: #f2f2f2;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header h1 {
+	font-size: 28px;
+	color:  #19334d; 
+	margin-left: 35%;
+}
+
+header  img{
+	margin: 2%;
+	float: left;
+	width: 15%;
+	height: 100%;
+	margin-top: 0%;
+}
+
+main {width: 960px;
+	min-height: 500px;
+	background-color: #f2f2f2;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+	/* unvisited link */
+main a:link {
+    color: #8B0000;
+}
+/* visited link */
+main a:visited {
+    color: #8B0000;
+}
+/* mouse over link */
+main a:hover {
+    color: #000000;
+}
+/* selected link */
+ main a:active {
+    color: #ff3333;
+}
+main h1,h2 {
+	color:#19334d; 
+	margin-left: 10px;
+	font-size: 28px;
+}
+article {
+	padding: 10px;
+	font-size: 20px;
+}
+article img{
+	margin: 5% 0 0 0;
+	float: auto;
+	width: 70%;
+	height:auto;
+	margin-left: 15%;
+}
+article ul{
+	margin-left: 15px;
+}
+article p{
+	margin-top: 5px;
+	text-align: justify;
+}
+footer {
+	width: 960px;
+	height: 55px;
+	background-color: #f2f2f2;
+	clear: left;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+}
+footer h2 {
+	font-size: 18px;
+	color: #19334d; 
+	padding-top: 10px;
+}
+ul {
+	margin-left: 25%;
+	margin-top: 4%;
+}
+.nav li{
+	list-style: none;
+	position: relative;
+}
+.nav li a{
+	text-decoration: none;
+	color: #fff;
+	display: block; 
+	padding: 10px 30px;
+	background-color: #19334d;
+}
+.nav li, .nav li a{
+	float: left;
+
+}
+
+/* SUB MENUS STYLE */
+.nav li ul{
+	position: absolute;
+	margin: 0%;
+	padding: 0%;
+	top: 100%;
+	display: none;
+}
+.nav li:hover>ul{
+	display: block;
+}
+/* END */
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #fff;
+    float: left;
+    width: auto;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+}
+
+div.desc {
+    padding: 15px;
+    font-style: italic;
+    text-align: center;
+}
+div.nagore{
+	margin-left: 5%;
+}
+.clearfix {clear: both;}
